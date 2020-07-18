@@ -27,7 +27,7 @@ func main() {
 	fmt.Println(v)
 
 	v2 := []int{1, 3, 6, 4, 7, 9, 0, 2, 11, 32, 18, 56, 22}
-	algorithm.BucketSort(v2)
+	algorithm.QuickSort(v2, 0, len(v2) - 1)
 	fmt.Println(v2)
 
 	//可变参数实现
